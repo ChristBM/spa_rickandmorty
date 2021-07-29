@@ -1,0 +1,28 @@
+{
+  "name": "vanillaJS",
+  "version": "1.0.0",
+  "description": "single page application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack server --open --mode development"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "christian <christian.boffill@gamil.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.47.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.8",
+    "copy-webpack-plugin": "^6.2.1"
+  }
+}
